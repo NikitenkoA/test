@@ -38,9 +38,9 @@ $comment = trim($comment); $comment = stripslashes($comment);
 
 if($phone !== "") {
 $data = "Имя    : " .$name. 
-"<br />Телефон : " .$phone. 
+"<br />Телефон : " .$phone. /* 
 "<br />Мебель: " .$avto. 
-"<br />Адресс: " .$adress. 
+"<br />Адресс: " .$adress. */ 
 "<br />Текст сообщения:   : " .$comment.
 "<br />Ссылка:   : <a href=\"" .$url."\">".$url."</a>";
 

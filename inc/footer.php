@@ -16,6 +16,7 @@ jQuery(function($){
     <input class="zkz_input" type="text" name="name" id="name" />
 </div>
 </div>
+<?php /*
 <div class='z5'>
 <div class='wrapper'>
 		<label  for="phone"><strong>Номер вашего телефона</strong>: </label><br />         
@@ -56,13 +57,14 @@ while($r2 = mysql_fetch_assoc($res2));
 
 </div>
 </div>
+*/ ?>
 
 </div>
 
 <div class='z1'>
 <div class='wrapper'>
         
-<p><label for="comment">Комментарий к заказу:</label></p>
+<p><label for="comment">Комментарий к заказу (не обязательно):</label></p>
          <p>          
            <textarea class="zkz_input" name="comment" id="comment" rows="5"></textarea>
            <input name="url" type="hidden" id="url" value="<? echo "http://mebelprestig.com.ua".$_SERVER['REQUEST_URI']; ?>" />
