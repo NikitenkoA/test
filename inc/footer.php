@@ -16,7 +16,7 @@ jQuery(function($){
     <input class="zkz_input" type="text" name="name" id="name" />
 </div>
 </div>
-<?php /*
+
 <div class='z5'>
 <div class='wrapper'>
 		<label  for="phone"><strong>Номер вашего телефона</strong>: </label><br />         
@@ -27,14 +27,15 @@ jQuery(function($){
    
 <div class='z5'>
 <div class='wrapper'>
-	 <p>
+	 <!-- <p>
         <label for="adress">Адрес:</label><br />
 		<input class="zkz_input" type="text" name="adress" id="adress" />
-     </p>
+     </p> -->
 </div>
 </div>
 <div class='z5'>
 <div class='wrapper'>
+  <?php /*
 	  <p><label for="avto">Мебель: </label><br />
          
          <select name="avto" id="avto">
@@ -54,10 +55,10 @@ while($r2 = mysql_fetch_assoc($res2));
 ?>  
           </select>
         </p>
-
-</div>
-</div>
 */ ?>
+</div>
+</div>
+
 
 </div>
 
